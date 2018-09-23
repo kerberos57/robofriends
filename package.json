@@ -2,9 +2,11 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ganbadrakh.github.io/robofriends",
   "dependencies": {
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
+    "gh-pages": "^2.0.0",
     "install-peerdeps": "^1.8.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -15,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
