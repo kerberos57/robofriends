@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^5.0.0",
     "install-peerdeps": "^1.8.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
