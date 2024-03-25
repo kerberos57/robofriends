@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://ganbadrakh.github.io/robofriends",
   "dependencies": {
-    "@types/react": "^18.2.55",
+    "@types/react": "^18.2.70",
     "@types/react-dom": "^18.2.19",
     "gh-pages": "^6.1.1",
     "install-peerdeps": "^3.0.3",
